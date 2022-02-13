@@ -34,7 +34,7 @@ function auth(req, res, next){
     }
 }
 
-const connection = require("./database/database");
+//const connection = require("./database/database");
 
 app.listen(3000, () => {
     console.log("O servidor está rodando!")
